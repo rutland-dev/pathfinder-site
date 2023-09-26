@@ -1,0 +1,153 @@
+* {
+    color: #FAF9F6;
+    font-family: Lancelot;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image img {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
+
+.summary-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #322F2E;
+}
+
+.summary-subcontainer {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.summary {
+    color: #FAF9F6;
+    font-size: 42px;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #322F2E;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #FAF9F6
+}
+
+.character-container {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.caunt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caunt-image {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    border: darkred solid 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lev-image {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    border: darkred solid 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pyotr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pyotr-image {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    border: darkred solid 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #322F2E;
+    margin: 0;
+    padding: 40px;
+}
+
+.sub-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+}
+
+.sub-text p {
+    font-size: 42px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer p {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
