@@ -75,12 +75,10 @@ a {
     justify-content: center;
 }
 
-.caunt-image {
+.caunt-image img {
     display: flex;
-    width: 300px;
-    height: 400px;
-    font-size: 20px;
-    border: darkred solid 2px;
+    width: 300;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
@@ -92,12 +90,10 @@ a {
     justify-content: center;
 }
 
-.lev-image {
+.lev-image img {
     display: flex;
     width: 300px;
-    height: 400px;
-    font-size: 20px;
-    border: darkred solid 2px;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
@@ -109,12 +105,10 @@ a {
     justify-content: center;
 }
 
-.pyotr-image {
+.pyotr-image img {
     display: flex;
     width: 300px;
-    height: 400px;
-    font-size: 20px;
-    border: darkred solid 2px;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
