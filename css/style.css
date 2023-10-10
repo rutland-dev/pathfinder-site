@@ -216,3 +216,51 @@ a {
 .foundry-container img {
     width: 600px;
 }
+
+.forge-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px;
+}
+
+.forge-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.forge-container {
+    display: flex;
+    padding: 20px;
+}
+
+.forge-container img {
+    width: 600px;
+}
+
+.dungeondraft-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px;
+}
+
+.dungeondraft-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.dungeondraft-container {
+    display: flex;
+    padding: 20px;
+}
+
+.dungeondraft-container img {
+    width: 600px;
+}
