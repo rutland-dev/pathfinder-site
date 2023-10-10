@@ -1,6 +1,6 @@
 * {
     color: #FAF9F6;
-    font-family: Lancelot;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -86,29 +86,14 @@ a {
     justify-content: space-evenly;
 }
 
-.caunt {
+.character {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.caunt-image img {
-    display: flex;
-    width: 300;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.lev {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.lev-image img {
+.character-image img {
     display: flex;
     width: 300px;
     height: auto;
@@ -116,19 +101,8 @@ a {
     justify-content: center;
 }
 
-.pyotr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.pyotr-image img {
-    display: flex;
-    width: 300px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+.character-text p {
+    font-family: Lancelot;
 }
 
 .subsection {
@@ -166,10 +140,13 @@ a {
 
 .tools-header {
     display: flex;
-    padding: 10px 100px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
 }
 
-.demiplane-content {
+.tool-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,90 +154,18 @@ a {
     padding: 20px;
 }
 
-.demiplane-text {
+.tool-text {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 400px;
 }
 
-.demiplane-container {
+.tool-container {
     display: flex;
     padding: 20px;
 }
 
-.demiplane-container img {
-    width: 600px;
-}
-
-.foundry-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 20px;
-}
-
-.foundry-text {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 400px;
-}
-
-.foundry-container {
-    display: flex;
-    padding: 20px;
-}
-
-.foundry-container img {
-    width: 600px;
-}
-
-.forge-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 20px;
-}
-
-.forge-text {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 400px;
-}
-
-.forge-container {
-    display: flex;
-    padding: 20px;
-}
-
-.forge-container img {
-    width: 600px;
-}
-
-.dungeondraft-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 20px;
-}
-
-.dungeondraft-text {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 400px;
-}
-
-.dungeondraft-container {
-    display: flex;
-    padding: 20px;
-}
-
-.dungeondraft-container img {
+.tool-container img {
     width: 600px;
 }
