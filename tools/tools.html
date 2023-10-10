@@ -5,48 +5,83 @@
         <meta name="description" content="The tools I use to help GM Pathfinder 2e Age of Ashes.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Pathfinder 2e - Gamge Master Tools</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <style>
         * {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        p {
+            font-size: 20px;
+        }
     </style>
     <body>
         <div class="header">
-            <h1>These are some of the tools I use to GM Pathfinder 2e Age of Ashes, as well as some examples of their use.</h1>
+            <div class="tools-header">
+                <h1>These are some of the tools I use to GM Pathfinder 2e Age of Ashes, as well as some examples of their use.</h1>
+            </div>
         </div>
         <div class="nav-bar">
             <ul>
-                <li><a href="#">Demiplane</a></li>
-                <li><a href="#">Foundry VTT</a></li>
-                <li><a href="#">The Forge</a></li>
-                <li><a href="#">Microsoft OneNote</a></li>
-                <li><a href="#">Music/Audio Player</a></li>
-                <li><a href="#">Bing Image Creator</a></li>
+                <li><a href="#demiplane">Demiplane</a></li>
+                <li><a href="#foundry">Foundry VTT</a></li>
+                <li><a href="#forge">The Forge</a></li>
+                <li><a href="#dungeondraft">DungeonDraft</a></li>
+                <li><a href="#onenote">Microsoft OneNote</a></li>
+                <li><a href="#audio">Music/Audio Player</a></li>
+                <li><a href="#bing">Bing Image Creator</a></li>
             </ul>
         </div>
-        <div class="even demiplane-container">
-            <h2>Demiplane Will Go Here</h2>
-            <a href="https://www.demplane.com" target="_blank">Check out Demiplane</a>
+        <div id="demiplane" class="even demiplane-container">
+            <h2>Demiplane</h2>
+            <div class="demiplane-content">
+                <div class="demiplane-text">
+                    <p>
+                        Although still in beta, Demeplane's character builder is my absolute favorite
+                        digital character sheet for Pathfinder 2e. All my players in the Age of Ashes
+                        Adventure Path use it. It makes building any Pathfinder 2e character super simple,
+                        and allows me as the GM to easily keep track of my player's characters.
+                    </p>
+                </div>
+                <img src="images/demplane-character-sheet.png" alt="a screenshot of the demiplane character sheet">
+            </div>
+            <a href="https://app.demiplane.com/home"><button class="btn btn-primary" type="button">Check out Demiplane</button></a>
         </div>
-        <div class="odd foundry-container">
+        <div id="foundry" class="odd foundry-container">
             <h2>Foundry VTT Will Go Here</h2>
-            <a href="https://foundryvtt.com/" target="_blank">Check out Foundry VTT</a>
+            <div class="foundry-content">
+                <div class="foundry-text">
+                    <p>
+                        Not quite as popular as Roll20 VTT, Foundry VTT has been my favorite virtual tabletop for not only
+                        Pathfinder 2e, but any map focused ttrpg (Dungeons & Dragons, Dungeon Crawl Classics, etc). The fact
+                        that the software is a one-time purchase as opposed to a subscription system is a huge plus. Aside from
+                        that, Foundry VTT also boasts some incredible control and map features. Visual effects, sound sets,
+                        journals, and the ability to write custom scripts.
+                    </p>
+                </div>
+                <img src="images/foundry-vtt.png" alt="a screenshot of foundry vtt">
+            </div>
+            <a href="https://foundryvtt.com/"><button class="btn btn-primary" type="button">Check out Foundry VTT</button></a>
         </div>
-        <div class="even forge-container">
+        <div id="forge" class="even forge-container">
             <h2>The Forge Will Go Here</h2>
             <a href="https://forge-vtt.com/" target="_blank">Check out The Forge</a>
         </div>
-        <div class="odd onenote-container">
+        <div id="dungeondraft" class="odd dungeondraft-container">
+            <h2>DungeonDraft Will Go Here</h2>
+            <a href="#" target="_blank">Check out DungeonDraft</a>
+        </div>
+        <div id="onenote" class="even onenote-container">
             <h2>Onenote Will Go Here</h2>
             <a href="https://www.onenote.com/" target="_blank">Check out OneNote</a>
         </div>
-        <div class="even audio-container">
+        <div class="odd audio-container">
             <h2>Audio Stuff Will Go Here</h2>
             <a href="https://www.music.apple.com/" target="_blank">Check out Apple Music</a>
         </div>
-        <div class="odd bing-container">
+        <div id="bing" class="even bing-container">
             <h2>Bing Image Creator Will Go Here</h2>
             <a href="https://www.bing.com/create/" target="_blank">Check out Image Creator</a>
         </div>

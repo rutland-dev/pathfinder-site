@@ -5,11 +5,13 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .header {
     display: flex;
     background-color: black;
-    padding: 0;
-    margin: 0;
     justify-content: center;
     align-items: center;
 }
@@ -160,4 +162,57 @@ a {
     font-size: 20px;
     margin: 0;
     padding: 20px;
+}
+
+.tools-header {
+    display: flex;
+    padding: 10px 100px;
+}
+
+.demiplane-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px;
+}
+
+.demiplane-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.demiplane-container {
+    display: flex;
+    padding: 20px;
+}
+
+.demiplane-container img {
+    width: 600px;
+}
+
+.foundry-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px;
+}
+
+.foundry-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.foundry-container {
+    display: flex;
+    padding: 20px;
+}
+
+.foundry-container img {
+    width: 600px;
 }
